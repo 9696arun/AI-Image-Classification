@@ -86,14 +86,35 @@ Developed using **TensorFlow/Keras**, this CNN model includes:
 
 An interactive **web-based interface** built using **Streamlit** allows users to upload an image and instantly view predictions.  
 
-### 🔹 Features  
+### 🖼️ Sample Prediction Output  
+
+Below are real screenshots of the web application’s working and prediction results 👇  
+
+#### 🔹 Image Upload & Prediction Interface  
+![App Interface](output/image.png)
+
+#### 🔹 Predicted Output Example 1  
+![Output Screenshot 1](output/Screenshot%202025-11-07%20005425.png)
+
+#### 🔹 Predicted Output Example 2  
+![Output Screenshot 2](output/Screenshot%202025-11-07%20005443.png)
+
+#### 🔹 Predicted Output Example 3  
+![Output Screenshot 3](output/Screenshot%202025-11-07%20005853.png)
+
+---
+
+## 🧩 Features  
+
 - 🖼️ Upload images (`.jpg`, `.jpeg`, `.png`)  
 - 📊 Instant classification results  
 - 🎨 Clean, responsive UI design  
 - ⚡ Real-time predictions  
-- 💾 Uses the trained CNN model (`best_model.h5`)  
+- 💾 Uses trained CNN model (`best_model.h5`)  
 
-### 🔹 Run the App  
+---
+
+## ▶️ Run the App  
 
 ```bash
 streamlit run app.py
